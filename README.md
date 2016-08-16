@@ -1,12 +1,12 @@
 # PROBLEM STATEMENT
-# Chef has an array A consisting of N elements. He wants to find number of pairs of non-intersecting segments [a, b] and [c, d] (1 ≤ a ≤ b < c ≤ d ≤ N) such there is no number that occurs in the subarray {Aa, Aa+1, ... , Ab} and {Ac, Ac+1, ... , Ad} simultaneously.
+Chef has an array A consisting of N elements. He wants to find number of pairs of non-intersecting segments [a, b] and [c, d] (1 ≤ a ≤ b < c ≤ d ≤ N) such there is no number that occurs in the subarray {Aa, Aa+1, ... , Ab} and {Ac, Ac+1, ... , Ad} simultaneously.
 
 Help Chef to find this number.
 Input
 
-    The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
-    The first line of each test case contains a single integer N denoting the number of elements in the array.
-    The second line contains N space-separated integers A1, A2, ..., AN.
+1. The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+2. The first line of each test case contains a single integer N denoting the number of elements in the array.
+3. The second line contains N space-separated integers A1, A2, ..., AN.
 
 Output
 
@@ -35,15 +35,17 @@ Subtask 3 (59 points)
 Example
 
 Input:
-2
-3
-1 2 3
-4
-1 2 1 2
+
+    2
+    3
+    1 2 3
+    4
+    1 2 1 2
 
 Output:
-5
-4
+
+    5
+    4
 
 Explanation
 
